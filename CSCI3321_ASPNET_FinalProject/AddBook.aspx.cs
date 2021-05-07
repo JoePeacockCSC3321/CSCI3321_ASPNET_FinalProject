@@ -34,7 +34,8 @@ namespace CSCI3321_ASPNET_FinalProject
                 + ddBooksAuthor.SelectedValue 
                 + ", " 
                 + txtBooksPrice.Text 
-                + ", '" + txtBooksPublishDate.Text 
+                + ", '" 
+                + txtBooksPublishDate.Text 
                 + "', " 
                 + ddBooksPublisher.SelectedValue 
                 + " , " 
