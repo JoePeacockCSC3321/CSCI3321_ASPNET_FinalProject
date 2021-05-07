@@ -46,13 +46,16 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+                    <a class="navbar-brand" runat="server" href="~/">Final Project - Book Menu</a>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
+
+                     <li><a href="MyBooks.aspx" class="btn btn-primary btn-lg">Book Record&raquo;</a></li>
+                     <li><a href="AddBook.aspx" class="btn btn-primary btn-lg">Add Books &raquo;</a></li>
+                     <li><a href="AddAuthor.aspx" class="btn btn-primary btn-lg">Add Authors &raquo;</a></li>
+                     <li><a href="AddPublishers.aspx" class="btn btn-primary btn-lg">Add Publishers &raquo;</a></li>
+                        
                     </ul>
                 </div>
             </div>
@@ -62,7 +65,7 @@
             </asp:ContentPlaceHolder>
             <hr />
             <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+                <p>SFASU <%: DateTime.Now.Year %> - CSC 3321</p>
             </footer>
         </div>
 
